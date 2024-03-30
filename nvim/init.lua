@@ -15,4 +15,3 @@ vim.opt.rtp:prepend(lazypath)
 -- Initialize vim with lazy.nvim
 require("vim-options")
 require("lazy").setup("plugins")
-

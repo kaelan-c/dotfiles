@@ -1,4 +1,4 @@
-  -- Declare treesitter package
+-- Declare treesitter package
 return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
@@ -6,13 +6,13 @@ return {
     -- Intialize and configure treesitter
     local configs = require("nvim-treesitter.configs")
     configs.setup({
-    -- Declare languages with treesitter
-      ensure_installed = {"c", "python", "css", "tsx", "lua", "vim", "html", "javascript", "cpp"},
+      -- Auto install language if unknown language is encountered
+      auto_install = true,
+      -- Declare languages with treesitter
+      ensure_installed = { "c", "python", "css", "tsx", "lua", "vim", "html", "javascript", "cpp" },
       sync_install = false,
       highlight = { enable = true },
-      indent = { enable = true},
+      indent = { enable = true },
     })
-  end
+  end,
 }
-
- 
