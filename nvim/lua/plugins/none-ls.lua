@@ -12,7 +12,7 @@ return {
 				null_ls.builtins.formatting.stylua,
 				-- js linting and formatting
 				null_ls.builtins.formatting.prettier,
-				require("none-ls.diagnostics.eslint_d"),
+        -- require("none-ls.diagnostics.eslint_d"),
 				-- Python linting and formatting
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.isort,
