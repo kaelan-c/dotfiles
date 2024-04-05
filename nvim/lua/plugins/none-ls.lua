@@ -16,10 +16,6 @@ return {
         -- Python linting and formatting
         null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.isort,
-
-        null_ls.builtins.formatting.sqlfmt,
-        null_ls.builtins.diagnostics.sqlfluff,
-
       },
     })
 
