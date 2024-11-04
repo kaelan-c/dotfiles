@@ -4,13 +4,13 @@ import = [
 
 # Font Config:
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+normal = { family = "GoMono Nerd Font", style = "Regular"}
 
 [env]
   TERM = "xterm-256color"
 
 [window]
-opacity = 0.65
+opacity = 1
 
 [shell]
 program = "/bin/bash"

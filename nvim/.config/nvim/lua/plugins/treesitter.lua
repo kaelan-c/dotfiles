@@ -9,7 +9,7 @@ return {
       -- Auto install language if unknown language is encountered
       auto_install = true,
       -- Declare languages with treesitter
-      ensure_installed = { "c", "python", "css", "tsx", "lua", "vim", "html", "javascript", "cpp" },
+      ensure_installed = { "c", "python", "css", "tsx", "lua", "vim", "html", "javascript", "cpp", "astro", },
       sync_install = false,
       highlight = { enable = true },
       indent = { enable = true },
